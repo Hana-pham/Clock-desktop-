@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>HanaPham Clock</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="widget" id="drag-region">
+    <div class="time" id="time">00:00</div>
+    <div class="date" id="date">Wed • 1 Jan</div>
+    <div class="pillbar">
+      <button data-action="toggle-format" title="Toggle 12/24h">12/24h</button>
+      <button data-action="toggle-seconds" title="Show/Hide seconds">sec</button>
+      <button data-action="toggle-date" title="Show/Hide date">date</button>
+    </div>
+  </div>
+  <script src="clock.js"></script>
+</body>
+</html>
