@@ -4,6 +4,7 @@
   "description": "A frameless clock widget",
   "author": "Hana Pham",
   "license": "MIT",
+  "type": "module",
   "main": "main.js",
   "scripts": {
     "start": "electron .",
